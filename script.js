@@ -1,11 +1,11 @@
 const screens = document.querySelectorAll('.screen');
-screens[0].classList.add('up')
 const chooseInsectBtns = document.querySelectorAll('.choose-insect-btn');
 const startBtn = document.getElementById('start-btn');
 const gameContainer = document.getElementById('game-container');
 const timeEl = document.getElementById('time');
 const scoreEl = document.getElementById('score');
 const message = document.getElementById('message');
+screens[0].classList.add('up')
 
 let seconds = 0;
 let score = 0;
