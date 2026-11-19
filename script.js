@@ -1,6 +1,5 @@
-screens[0].classList.add('up')
-
 const screens = document.querySelectorAll('.screen');
+screens[0].classList.add('up')
 const chooseInsectBtns = document.querySelectorAll('.choose-insect-btn');
 const startBtn = document.getElementById('start-btn');
 const gameContainer = document.getElementById('game-container');
