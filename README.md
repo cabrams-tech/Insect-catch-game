@@ -1,1 +1,2 @@
 # Insect-catch-game
+Asked classmate to look over code as game was loading but not functioning, they suggested I move screens[0].classList.add('up') from the top until after my screens had been declared.
